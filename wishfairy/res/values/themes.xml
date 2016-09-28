@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyTheme" parent="@android:Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:alertDialogStyle">@style/dialog</item>
+    </style>
+    
+</resources>

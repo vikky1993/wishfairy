@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wish Fairy</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="share"><u>Share It?</u></string>
+    <array name="super_cars">
+        <item name="BMW M5">The BMW M5 is a high performance version of the 5 Series executive car built by the Motorsport division of BMW.</item>
+        <item>The Lamborghini Gallardo is a sports car built by Lamborghini from 2003 to 2013.</item>
+        <item>The Porsche 911 (pronounced Nine Eleven or German: Neunelf) is a two-door, 2+2 high performance sports car made since 1963 by Porsche AG of Stuttgart, Germany.</item>
+        <item>The Lamborghini Aventador is a mid-engined sports car produced by the Italian manufacturer Lamborghini.</item>
+        <item>The Ducati Diavel is the second cruiser motorcycle from Ducati,after the Indiana of 1986–1990. The 2011 model year Diavel debuted in November 2010 </item>
+        <item>The Yamaha FZ1 is a street motorcycle manufactured by Yamaha in Japan. The 600 cc FZ6 and 800 cc FZ8 are related</item>
+    </array>
+    <array name="super_bikes">
+        <item>The CBR1000RR, known in some countries as the Fireblade, is a 999 cc liquid-cooled inline four-cylinder sport bike that was introduced by Honda in 2004.</item>
+        <item>The Honda CB1000R is a naked bike manufactured by the Honda Motor Company.It was unveiled at the Milan Bike Show on 6 November, 2007.</item>
+        <item>The Yamaha YZF-R1or R1, is an open class sport bike or superbike motorcycle manufactured by Yamaha Motor Company since 1998.</item>
+        <item>The Benelli TNT1130R is a super sports bike from the Italian manufacturer Benelli</item>
+        <item>The Ducati Diavel is the second cruiser motorcycle from Ducati,after the Indiana of 1986–1990. The 2011 model year Diavel debuted in November 2010 </item>
+        <item>The Yamaha FZ1 is a street motorcycle manufactured by Yamaha in Japan. The 600 cc FZ6 and 800 cc FZ8 are related</item>
+    </array>
+    <array name="dream_lands">
+        <item>Salar de Uyuni, amid the Andes in southwest Bolivia, is the world’s largest salt flat. It’s the legacy of a prehistoric lake that went dry, leaving behind a desertlike, 11,000-sq.-km. landscape of bright-white salt, rock formations and cacti-studded islands. Its otherworldly expanse can be observed from central Incahuasi Island. Though wildlife is rare in this unique ecosystem, it does harbor many pink flamingos.</item>
+
+        <item>Yellowstone National Park is a nearly 3,500-sq.-mile wilderness recreation area atop a volcanic hot spot.</item>
+        <item>Glass Beach is a beach in MacKerricher State Park near Fort Bragg, California that is abundant in sea glass created from years of dumping garbage into an area of coastline near the northern part of the town.</item>
+        <item>Santorini, one of the Cyclades islands in the Aegean Sea, was devastated by a volcanic eruption in the 16th century B.C.E., forever shaping its rugged landscape and villages. The whitewashed, cubist houses of its 2 principal towns, Fira and Oia, cling to cliffs above an underwater caldera (crater). They overlook the clear Aegean and beaches made up of black, red and white lava pebbles.</item>
+        <item>Giethoorn is a village in the Dutch province of Overijssel. It is located in the municipality of Steenwijkerland, about 5 km southwest of Steenwijk.</item>
+        <item>Venice, capital of northern Italy’s Veneto region, is built on more than 100 small islands in a marshy lagoon in the Adriatic Sea. Its stone palaces seemingly rise out of the water. There are no cars or roadways, just canals and boats. The Grand Canal snakes through the city, which is filled with innumerable narrow, mazelike alleys and small squares.</item>
+     </array>
+
+
+</resources>

@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+     android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+         <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            
+            android:orientation="horizontal" 
+            android:weightSum="2">
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Login" 
+                android:background="@drawable/button_xml"
+                ></Button>
+            <Button
+                android:id="@+id/login_registerButton"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="Register"
+                android:background="@drawable/button_xml" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            >
+
+            
+            
+            
+
+            <EditText
+                android:id="@+id/userNameEditText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="enter email ID"
+              	android:typeface="sans"
+                android:textSize="@dimen/SIZE_14"
+                 >
+
+                <requestFocus />
+            </EditText>
+            
+            <EditText
+                android:id="@+id/passWordEditText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="enter password"
+                android:inputType="textPassword"
+               
+               
+                android:textSize="@dimen/SIZE_14"
+                android:typeface="sans"
+                 />
+        </LinearLayout>
+
+   <!--     <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           	android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            
+                 <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="3dp"
+                android:text="Password" />
+           
+
+            
+        </LinearLayout>
+        
+        -->
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_centerHorizontal="true"
+        android:text="Forgot Password?"
+        android:textColor="@color/alight_blue"
+        android:textColorHighlight="@color/alight_blue"
+        android:textColorHint="@color/alight_blue"
+        android:textColorLink="@color/alight_blue"
+        android:textSize="@dimen/SIZE_14"
+        android:typeface="sans" 
+        />
+
+</RelativeLayout>

@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".LoginActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="250dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button_xml"
+                android:text="Login"
+                android:textSize="@dimen/SIZE_25" >
+            </Button>
+
+            <Button
+                android:id="@+id/login_registerButton"
+                android:layout_width="250dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button_xml"
+                android:text="Register"
+                android:textSize="@dimen/SIZE_25" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:orientation="vertical"
+             >
+
+            <EditText
+                android:id="@+id/userNameEditText"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter Email ID"
+                android:layout_gravity="center"
+                android:textSize="@dimen/SIZE_25"
+                android:typeface="sans"
+                android:layout_centerHorizontal="true"
+                 >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/passWordEditText"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Enter Password"
+                android:inputType="textPassword"
+                android:textSize="@dimen/SIZE_25"
+                android:typeface="sans" />
+        </LinearLayout>
+
+        <!--
+            <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           	android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            
+                 <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="3dp"
+                android:text="Password" />
+           
+
+            
+        </LinearLayout>
+        -->
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Forgot Password?"
+        android:textColor="@color/alight_blue"
+        android:textColorHighlight="@color/alight_blue"
+        android:textColorHint="@color/alight_blue"
+        android:textColorLink="@color/alight_blue"
+        android:textSize="@dimen/SIZE_25"
+        android:typeface="sans" />
+
+</RelativeLayout>

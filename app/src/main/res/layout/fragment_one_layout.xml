@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2dp"
+    android:background="#ffffff"
+    android:paddingBottom="2dp" tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:background="#ffffff"
+        android:id="@+id/l1"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/large" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="101dp"
+        android:layout_alignBottom="@+id/l1"
+        >
+        <HorizontalScrollView
+
+            android:layout_height="100dp"
+            android:layout_width="fill_parent"
+            android:fadeScrollbars="true"
+            android:scrollbars="none"
+            android:id="@+id/h1">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:id="@+id/inner"></LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="40dp"
+        android:layout_alignBottom="@id/l1"
+        android:id="@+id/prev"
+        />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="40dp"
+        android:layout_alignBottom="@id/l1"
+        android:layout_alignRight="@id/l1"
+
+        android:id="@+id/next"
+        />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+
+        android:id="@+id/frame"
+        android:layout_below="@+id/l1"></FrameLayout>
+
+</RelativeLayout>

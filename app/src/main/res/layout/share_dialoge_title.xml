@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:background="@color/orange">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/share_icon"
+        android:src="@drawable/whatsaap"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Share In Whatsapp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/share_icon"/>
+</RelativeLayout>

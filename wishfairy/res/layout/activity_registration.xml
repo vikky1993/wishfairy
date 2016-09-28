@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+				<Button
+			        android:id="@+id/registerButton"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="1"
+			        android:text="Register" 
+			        android:background="@drawable/button_xml"
+			        />
+			
+			    <Button
+			        android:id="@+id/clearButton"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="1"
+			        android:text="Clear"
+			        android:background="@drawable/button_xml"
+			         />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp" >
+			   <!--  <TextView
+			        android:id="@+id/textView1"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="Email ID" /> -->
+			
+			    <EditText
+			        android:id="@+id/emailIDEditText"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:ems="10"
+			        android:hint="enter email ID"
+			        android:textScaleX="1.0"
+			       android:typeface="sans"
+			        android:textSize="@dimen/SIZE_14" >
+			
+			        <requestFocus />
+			    </EditText>
+			    
+			    <EditText
+			        android:id="@+id/passwordReg"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:ems="10"
+			        android:inputType="textPassword"
+			        android:hint="enter password"
+			        android:textScaleX="0.85"
+			        android:typeface="sans"
+			        android:textSize="@dimen/SIZE_14"
+			         />
+			    
+			    <EditText
+				    android:id="@+id/confirmPasswordReg"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:ems="10"
+				    android:inputType="textPassword"
+				    android:typeface="sans"
+				    android:hint="confirm password"
+				    
+				    android:textSize="@dimen/SIZE_14" />
+			    
+				<EditText
+			        android:id="@+id/securityQuestionReg"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:ems="10"
+			        android:typeface="sans"
+			        android:textSize="@dimen/SIZE_14"
+			        android:textScaleX="1.0"
+			        android:hint="enter a security question" />
+				
+				
+				<EditText
+			        android:id="@+id/securityAnswerReg"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:ems="10"
+			        android:typeface="sans"
+			        android:textScaleX="1.0"
+			        android:textSize="@dimen/SIZE_14"
+			        android:hint="enter security answer" />
+				
+        </LinearLayout>
+
+        
+        
+        
+        
+    </LinearLayout>
+
+   
+    
+</RelativeLayout>

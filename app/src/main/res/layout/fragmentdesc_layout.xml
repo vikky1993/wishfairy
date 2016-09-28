@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:textSize="20sp"
+            android:textColor="#f98009"
+            android:id="@+id/head" />
+
+        <ScrollView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_width="fill_parent"
+            android:layout_height="140sp"
+            android:id="@+id/scrollView"
+            android:layout_gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:textSize="17sp"
+                android:paddingLeft="1sp"
+                android:textColor="#000000"
+                android:paddingRight="1sp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="The MV Agusta F4 was the motorcycle that launched the resurrection of MV Agusta in 1998. The F4 was created by motorcycle designer Massimo Tamburini at CRC (Cagiva Research Center), following his work on the Ducati 916. The F4 has a four pipe undertail exhaust, single-sided swingarm, large front forks (49 or 50 mm diameter) and traditional MV Agusta red and silver livery. The F4 is also one of the few production superbikes to have a hemispherical chamber 4 valves per cylinder engine."
+                android:id="@+id/matter" />
+        </ScrollView>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/share"
+            android:id="@+id/share"
+            android:textSize="15sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#009688"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <Button
+            android:layout_alignParentBottom="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/submit_button"
+            android:text="Add To Wishlist"
+            android:textSize="17sp"
+            android:id="@+id/addWish"
+            android:layout_gravity="center_horizontal" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

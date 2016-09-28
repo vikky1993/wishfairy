@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wish Fairy</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_page">Wish Fairy</string>
+    <string name="action_addwish">Add Wish</string>
+    <color name="ExpandChildBackground">#FFAFABAB</color>
+    <color name="ExpandGroupBackground">#505050</color>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_home_page">WishFairy</string>
+
+    <color name="alight_blue">#3388FF</color>
+    <color name="deep_blue">#3399FF</color>
+    <color name="white">#F4F4F5</color>
+
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="title_activity_reset_password">Password Reset</string>
+    <string name="logout">Logout</string>
+</resources>
